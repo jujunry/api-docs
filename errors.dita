@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="order-management-errors">
+    <title>Order Management API Error Codes</title>
+    <shortdesc>List of possible error codes and their solutions.</shortdesc>
+    <refbody>
+        <section>
+            <title>400 - Bad Request</title>
+            <p>The request contains invalid or missing data.</p>
+            <p><b>Solution:</b> Verify all required fields before sending the request.</p>
+        </section>
+        <section>
+            <title>401 - Unauthorized</title>
+            <p>Authentication failed.</p>
+            <p><b>Solution:</b> Check that the API key is valid and correctly configured.</p>
+        </section>
+        <section>
+            <title>404 - Not Found</title>
+            <p>The requested resource does not exist.</p>
+            <p><b>Solution:</b> Verify the endpoint URL and resource identifier.</p>
+        </section>
+        <section>
+            <title>500 - Internal Server Error</title>
+            <p>An unexpected server error occurred.</p>
+            <p><b>Solution:</b> Retry the request later or contact support.</p>
+        </section>
+    </refbody>
+</reference>
