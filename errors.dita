@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="order-management-errors">
-    <title>Order Management API Error Codes</title>
+    <title>Order Management API Errors</title>
     <shortdesc>List of possible error codes and their solutions.</shortdesc>
     <refbody>
         <section>
@@ -23,6 +23,9 @@
             <title>500 - Internal Server Error</title>
             <p>An unexpected server error occurred.</p>
             <p><b>Solution:</b> Retry the request later or contact support.</p>
+        </section>
+        <section>
+            <p>NOTE: If the error code is not listed here, contact your support at ordermanagementapi@support.com</p>
         </section>
     </refbody>
 </reference>

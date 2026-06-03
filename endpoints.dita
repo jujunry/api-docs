@@ -5,17 +5,6 @@
     <shortdesc>List of available endpoints for order management.</shortdesc>
     <refbody>
         <section>
-            <title>Get All Orders</title>
-            <p>
-                <b>Method:</b> GET
-                <b>URL:</b> /orders </p>
-            <p>Returns a list of all orders.</p>
-            <p>
-                <b>Response (200):</b>
-                <codeblock>[{"id": 101, "customer": "John Smith", "status": "Processing"}]</codeblock>
-            </p>
-        </section>
-        <section>
             <title>Create Order</title>
             <p>
                 <b>Method:</b> POST
